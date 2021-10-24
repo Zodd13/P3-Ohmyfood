@@ -1,0 +1,24 @@
+{
+  "name": "p3_bernia_mounir",
+  "version": "1.0.0",
+  "description": "Projet 3 openclassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zodd13/Bernia_3_22102021.git"
+  },
+  "keywords": [
+    "\"OhMyFood\"",
+    "\"OpenClassrooms\"",
+    "\"Sass\""
+  ],
+  "author": "\"\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zodd13/Bernia_3_22102021/issues"
+  },
+  "homepage": "https://github.com/Zodd13/Bernia_3_22102021#readme"
+}
