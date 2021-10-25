@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__logo{
+        margin: 1rem;
+    }
+    &__map{
+        border-top: rgba(0, 0, 0, 0.062) 2px solid;
+        background-color: rgba(230, 230, 230, 0.801);
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: rgb(43, 43, 43);
+        padding: 1rem;
+        width: 100%;
+    }
+    .fa-map-marker-alt{
+        margin-right: 1rem;
+    }
+}

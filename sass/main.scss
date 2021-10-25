@@ -1,3 +1,7 @@
+@import "./Utils/variables";
+@import "./Base/bases";
+@import "./Layout/header";
+
 .restaurant__card1{
     img{
         width: 100px;
@@ -6,6 +10,7 @@
 }
 .restaurant__card2{
     img{
+        color: $color-primary;
         width: 100px;
         height: 100px;
     }
