@@ -3,8 +3,14 @@
 /* Police d'écriture */
 /* Logo & titres */
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 /* Textes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -26,6 +32,38 @@
 }
 .header .fa-map-marker-alt {
   margin-right: 1rem;
+}
+
+.reservation {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+.reservation__title {
+  width: auto;
+  font-weight: 600;
+  font-size: 1.9rem;
+  margin-bottom: 0%;
+}
+.reservation__undertitle {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #959595;
+}
+
+.btn__explore {
+  background: linear-gradient(163deg, #ee73da 0%, #a05bdc 100%);
+  color: white;
+  font-weight: 500;
+  padding: 0.8rem;
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  box-shadow: 3px 3px 8px 0px #0000004f;
 }
 
 .restaurant__card1 img {

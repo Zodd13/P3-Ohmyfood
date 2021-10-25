@@ -1,0 +1,13 @@
+.btn{
+    &__explore{
+        background: $button-gradient;
+        color: white;
+        font-weight: 500;
+        padding: 0.8rem;
+        border-radius: 10rem;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 3rem;
+        box-shadow: 3px 3px 8px 0px #0000004f;   
+    }
+}
