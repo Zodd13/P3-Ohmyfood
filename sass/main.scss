@@ -4,29 +4,4 @@
 @import "./Components/button";
 @import "./Layout/header";
 @import "./Layout/functionning";
-
-.restaurant__card1{
-    img{
-        width: 100px;
-        height: 100px;
-    }
-}
-.restaurant__card2{
-    img{
-        color: $color-primary;
-        width: 100px;
-        height: 100px;
-    }
-}
-.restaurant__card3{
-    img{
-        width: 100px;
-        height: 100px;
-    }
-}
-.restaurant__card4{
-    img{
-        width: 100px;
-        height: 100px;
-    }
-}
+@import "./Layout/cards";
