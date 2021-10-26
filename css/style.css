@@ -1,12 +1,33 @@
 @charset "UTF-8";
-/* Variables de couleurs */
-/* Variables de couleurs */
 /* Police d'écriture */
 /* Logo & titres */
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 /* Textes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "roboto", sans-serif;
+}
+
+/* Variables de couleurs */
+/* Variables de couleurs */
+.btn__explore {
+  background: linear-gradient(163deg, #ee73da 0%, #a05bdc 100%);
+  color: white;
+  font-weight: 500;
+  padding: 0.8rem;
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  box-shadow: 3px 3px 8px 0px #0000004f;
+}
+.btn__explore:hover {
+  box-shadow: 3px 3px 8px 0px #0000008e;
+  background: linear-gradient(163deg, #ff83dd 0%, #ff83dd 33%, #985ede 100%);
+  transition: 500ms;
+}
+
 body {
   margin: 0%;
   padding: 0%;
@@ -55,20 +76,27 @@ body {
   color: #959595;
 }
 
-.btn__explore {
-  background: linear-gradient(163deg, #ee73da 0%, #a05bdc 100%);
-  color: white;
-  font-weight: 500;
-  padding: 0.8rem;
-  border-radius: 10rem;
-  border: none;
-  cursor: pointer;
-  margin-bottom: 3rem;
-  box-shadow: 3px 3px 8px 0px #0000004f;
+.functionning {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
 }
-.btn__explore:hover {
-  box-shadow: 3px 3px 8px 0px #0000008e;
-  background: linear-gradient(163deg, #ff83dd 0%, #ff83dd 33%, #985ede 100%);
+.functionning__title {
+  margin: 1rem 0rem 0rem 1rem;
+}
+.functionning__ul {
+  list-style-type: none;
+}
+.functionning__btn {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding-bottom: 1rem;
+}
+.functionning__phone {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
 }
 
 .restaurant__card1 img {

@@ -1,8 +1,9 @@
+@import "./Base/bases";
 @import "./Utils/mixins";
 @import "./Utils/variables";
-@import "./Base/bases";
-@import "./Layout/header";
 @import "./Components/button";
+@import "./Layout/header";
+@import "./Layout/functionning";
 
 .restaurant__card1{
     img{

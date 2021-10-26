@@ -12,5 +12,6 @@
     }
     &__explore:hover{
         @include light-button;
+        transition: 500ms;
     }
 }
