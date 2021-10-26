@@ -1,3 +1,10 @@
+@import "./variables";
 @mixin light-button{
-    text-shadow: .55rem .55rem #15DEA5;
+    box-shadow: 3px 3px 8px 0px #0000008e; 
+    background: linear-gradient(
+        163deg,
+        lighten($color-secondary, 2%) 0%,
+        lighten($color-secondary, 2%) 33%,
+        lighten($color-primary, 2%) 100%
+      );
 }

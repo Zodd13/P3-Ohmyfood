@@ -10,4 +10,7 @@
         margin-bottom: 3rem;
         box-shadow: 3px 3px 8px 0px #0000004f;   
     }
+    &__explore:hover{
+        @include light-button;
+    }
 }

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Variables de couleurs */
+/* Variables de couleurs */
 /* Police d'écriture */
 /* Logo & titres */
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
@@ -64,6 +65,10 @@ body {
   cursor: pointer;
   margin-bottom: 3rem;
   box-shadow: 3px 3px 8px 0px #0000004f;
+}
+.btn__explore:hover {
+  box-shadow: 3px 3px 8px 0px #0000008e;
+  background: linear-gradient(163deg, #ff83dd 0%, #ff83dd 33%, #985ede 100%);
 }
 
 .restaurant__card1 img {
