@@ -177,16 +177,16 @@ body {
   background-position: center;
 }
 .card__image--1 {
-  background-image: url("../../images/image--1.jpg");
+  background-image: url("../images/image--1.jpg");
 }
 .card__image--2 {
-  background-image: url("../../images/image--2.jpg");
+  background-image: url("../images/image--2.jpg");
 }
 .card__image--3 {
-  background-image: url("../../images/image--3.jpg");
+  background-image: url("../images/image--3.jpg");
 }
 .card__image--4 {
-  background-image: url("../../images/image--4.jpg");
+  background-image: url("../images/image--4.jpg");
 }
 .card__description {
   position: relative;
