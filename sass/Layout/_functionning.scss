@@ -1,24 +1,38 @@
+@use "../Utils/variables";
+
 .functionning{
     display: flex;
     width: 100%;
     flex-direction: column;
     &__title{
         margin: 1rem 0rem 0rem 2rem;
+        @media (min-width: variables.$breakpoint){
+            margin-left: 8%;
+            margin-right: 8%;
+        }
     }
     &__ul{
         list-style-type: none;
         padding: 0%;
         margin: 1rem  1rem 0rem 1rem;
+        @media (min-width: variables.$breakpoint){
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            margin-left: 8%;
+            margin-right: 8%;
     }
     &__btn{
         display: flex;
         flex-direction: column;
         width: auto;
         padding-bottom: 1rem;
+        }
     }
     &__list{
         cursor: pointer;
-        padding: 1.5rem;
+        justify-content: space-evenly;
+        padding: 1.5rem 0.7rem 1.5rem 0rem;
         font-size: 0.9rem;
         display: flex;
         width: 100%;
@@ -26,9 +40,17 @@
         font-family: 'roboto', sans-serif;
         border-radius: 1rem;
         border: none;
+        margin-bottom: 1rem;
         @include functionning-button;
         &:hover{
             background-color: lighten($color: $color-primary, $amount: 35);
+        }
+        @media (min-width: variables.$breakpoint){
+            flex-direction: row;
+            padding: 1rem;
+            margin: 0rem;
+            justify-content: space-around;
+            font-size: 0.93rem;
         }
     }
     &__icon{
@@ -37,6 +59,9 @@
         color: #7e7e7e;
         &:hover{
             color: darken($color: $color-primary, $amount: 15);
+        }
+        @media (min-width: variables.$breakpoint){
+            margin: 0;
         }
     }
 }

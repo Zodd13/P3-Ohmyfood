@@ -28,6 +28,7 @@ h4, p {
   border-radius: 10rem;
   border: none;
   cursor: pointer;
+  margin-top: 1rem;
   margin-bottom: 3rem;
   box-shadow: 3px 3px 8px 0px #0000004f;
 }
@@ -85,6 +86,7 @@ body {
   color: #959595;
 }
 
+/* Variables de couleurs */
 .functionning {
   display: flex;
   width: 100%;
@@ -93,12 +95,27 @@ body {
 .functionning__title {
   margin: 1rem 0rem 0rem 2rem;
 }
+@media (min-width: 767px) {
+  .functionning__title {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
 .functionning__ul {
   list-style-type: none;
   padding: 0%;
   margin: 1rem 1rem 0rem 1rem;
 }
-.functionning__btn {
+@media (min-width: 767px) {
+  .functionning__ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+.functionning__ul__btn {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -106,7 +123,8 @@ body {
 }
 .functionning__list {
   cursor: pointer;
-  padding: 1.5rem;
+  justify-content: space-evenly;
+  padding: 1.5rem 0.7rem 1.5rem 0rem;
   font-size: 0.9rem;
   display: flex;
   width: 100%;
@@ -114,11 +132,21 @@ body {
   font-family: "roboto", sans-serif;
   border-radius: 1rem;
   border: none;
+  margin-bottom: 1rem;
   background: #f6f6f6;
   box-shadow: 2px 3px 20px 0px #2b2b2b7d;
 }
 .functionning__list:hover {
   background-color: #f2eafb;
+}
+@media (min-width: 767px) {
+  .functionning__list {
+    flex-direction: row;
+    padding: 1rem;
+    margin: 0rem;
+    justify-content: space-around;
+    font-size: 0.93rem;
+  }
 }
 .functionning__icon {
   margin-right: 2rem;
@@ -128,10 +156,16 @@ body {
 .functionning__icon:hover {
   color: #6c27be;
 }
+@media (min-width: 767px) {
+  .functionning__icon {
+    margin: 0;
+  }
+}
 
 /* Variables de couleurs */
 .restaurant {
   background-color: #f6f6f6;
+  padding-bottom: 2rem;
 }
 .restaurant h3 {
   margin: 0%;
@@ -139,6 +173,12 @@ body {
   padding: 1rem 0rem 1rem 1rem;
   font-size: 1.6rem;
   font-weight: bold;
+}
+@media (min-width: 767px) {
+  .restaurant h3 {
+    margin-left: 8%;
+    padding-left: 0rem;
+  }
 }
 
 .restaurant__cards {
@@ -164,9 +204,15 @@ body {
   color: #278870;
   font-weight: 500;
 }
-@media (max-width: 770px) {
+@media (max-width: 767px) {
   .restaurant__cards {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 767px) {
+  .restaurant__cards {
+    margin-left: 8%;
+    margin-right: 8%;
   }
 }
 
@@ -200,7 +246,7 @@ body {
   padding-top: 1rem;
 }
 .card__description p {
-  margin: 0.3rem 0.7rem 1rem 0.7rem;
+  margin: 0.3rem 0.7rem 0rem 0.7rem;
   padding-bottom: 1rem;
 }
 .card__description i {

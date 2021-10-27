@@ -2,12 +2,17 @@
 
 .restaurant {
     background-color: $reservation-background;
+    padding-bottom: 2rem;
     h3 {
     margin: 0%;
     margin-top: 2rem;
     padding: 1rem 0rem 1rem 1rem;
     font-size: 1.6rem;
     font-weight: bold;
+    @media (min-width: variables.$breakpoint){
+        margin-left: 8%;
+        padding-left: 0rem;
+    }
     }
 }
 .restaurant__cards{
@@ -35,6 +40,10 @@
     @media (max-width: variables.$breakpoint){
         grid-template-columns: repeat(1, 1fr);
     }
+    @media (min-width: variables.$breakpoint){
+        margin-left: 8%;
+        margin-right: 8%;
+    }
 }
 .card{
     &__image{
@@ -58,7 +67,7 @@
             padding-top: 1rem;
         }
         p{
-            margin: 0.3rem 0.7rem 1rem 0.7rem;
+            margin: 0.3rem 0.7rem 0rem 0.7rem;
             padding-bottom: 1rem;
         }
         i{
