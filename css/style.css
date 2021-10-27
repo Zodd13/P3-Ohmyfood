@@ -209,5 +209,20 @@ body {
   top: 1.5rem;
   font-size: 1.5rem;
 }
+.card__description .far:hover {
+  color: transparent;
+  opacity: 0;
+}
+.card__description .fas {
+  color: transparent;
+  transition: ease-out all 400ms;
+}
+.card__description i:hover {
+  transform: scale(1.3);
+  background-image: linear-gradient(163deg, #ee73da 0%, #a05bdc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
