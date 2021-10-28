@@ -1,0 +1,36 @@
+@use "../Utils/variables";
+
+.menu__buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    height: 4rem;
+    padding-bottom: 0.4rem;
+    width: auto;
+    font-weight: 550;
+    font-family: 'roboto', sans-serif;
+    border-radius: 0.7rem;
+    @include functionning-button;
+    @media (min-width: variables.$breakpoint){
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    h3{
+        display: flex;
+        padding: 0rem;
+        font-weight: 550;
+        margin: 0.8rem 0rem 0.3rem 1rem;
+    }
+    .menu__body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0rem 1rem 0rem 1rem;
+        h4{
+            font-weight:lighter;
+        }
+        }
+    }

@@ -1,0 +1,16 @@
+.header__menu{
+    display: flex;
+    margin: 0rem;
+    padding: 1rem;
+    a{
+        display: flex;
+        align-items: center;
+        color: darken($color: $color-quaternary, $amount: 35);
+    }
+.header__logomenu{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+}
