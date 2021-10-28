@@ -18,6 +18,13 @@ h4, p {
   margin: 0%;
 }
 
+ul, li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0rem;
+  margin: 0rem;
+}
+
 /* Variables de couleurs */
 /* Variables de couleurs */
 .btn__explore {
@@ -269,6 +276,29 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 1;
+}
+
+.footer__index {
+  display: flex;
+  flex-direction: column;
+  background: #353535;
+  align-items: flex-start;
+}
+.footer__index a h5 {
+  font-family: "Shrikhand";
+  color: white;
+  font-weight: 200;
+  margin: 0rem;
+  padding: 1rem 0rem 1rem 1rem;
+}
+.footer__index ul {
+  margin-bottom: 2rem;
+}
+.footer__index li {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+  padding: 0rem 0.3rem 0.3rem 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

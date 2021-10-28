@@ -1,0 +1,24 @@
+.footer__index{
+    display: flex;
+    flex-direction: column;
+    background: $background-footer;
+    align-items: flex-start;
+    a{
+        h5{
+            font-family: 'Shrikhand';
+            color: white;
+            font-weight: 200;
+            margin: 0rem;
+            padding: 1rem 0rem 1rem 1rem;
+        }
+    }
+    ul{
+        margin-bottom: 2rem;
+    }
+    li{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color:white;
+        padding: 0rem 0.3rem 0.3rem 1rem;
+    }
+}
