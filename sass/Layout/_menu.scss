@@ -1,7 +1,7 @@
 @use "../Utils/variables";
 
 .background__image{
-    background-image: url("/sass/images/image--3.jpg");
+    background-image: url("../sass/images/image--3.jpg");
     background-size: cover;
     background-position: center;
     height: 15rem;
@@ -61,7 +61,7 @@
     h2{
         font-weight: lighter;
         color: lighten($color: black, $amount: 35);
-        margin: 0 0 0 1rem;
+        margin: 2rem 0 1rem 1rem;
         padding: 0%;
         font-size: 1rem;
         

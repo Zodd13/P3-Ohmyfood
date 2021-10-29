@@ -320,7 +320,7 @@ body {
 
 /* Variables de couleurs */
 .background__image {
-  background-image: url("/sass/images/image--3.jpg");
+  background-image: url("../sass/images/image--3.jpg");
   background-size: cover;
   background-position: center;
   height: 15rem;
@@ -386,7 +386,7 @@ body {
 .menu__choice h2 {
   font-weight: lighter;
   color: #595959;
-  margin: 0 0 0 1rem;
+  margin: 2rem 0 1rem 1rem;
   padding: 0%;
   font-size: 1rem;
 }
@@ -409,6 +409,7 @@ body {
   background-color: #99E2D0;
 }
 
+/* Variables de couleurs */
 /* Variables de couleurs */
 .menu__buttons {
   display: flex;
@@ -445,6 +446,28 @@ body {
 }
 .menu__buttons .menu__body h4 {
   font-weight: lighter;
+}
+
+.menuText__button {
+  display: flex;
+  justify-content: center;
+}
+
+.btnText {
+  background: linear-gradient(163deg, #ee73da 0%, #a05bdc 100%);
+  color: white;
+  font-weight: 500;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 10rem;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0rem 3rem 0rem;
+  box-shadow: 3px 3px 8px 0px #0000004f;
+}
+.btnText.btnText:hover {
+  box-shadow: 3px 3px 8px 0px #0000008e;
+  background: linear-gradient(163deg, #ff83dd 0%, #ff83dd 33%, #985ede 100%);
+  transition: 500ms;
 }
 
 /*# sourceMappingURL=style.css.map */

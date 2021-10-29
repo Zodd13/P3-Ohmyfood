@@ -1,4 +1,5 @@
 @use "../Utils/variables";
+@use "../Utils/mixins";
 
 .menu__buttons{
     display: flex;
@@ -32,5 +33,24 @@
         h4{
             font-weight:lighter;
         }
+        }
+    }
+.menuText__button{
+    display: flex;
+    justify-content: center;
+}
+    .btnText{
+            background: $button-gradient;
+            color: white;
+            font-weight: 500;
+            padding: 1rem 3rem 1rem 3rem;
+            border-radius: 10rem;
+            border: none;
+            cursor: pointer;
+            margin: 1rem 0rem 3rem 0rem;
+            box-shadow: 3px 3px 8px 0px #0000004f;
+        &.btnText:hover{
+            @include light-button;
+            transition: 500ms;
         }
     }
