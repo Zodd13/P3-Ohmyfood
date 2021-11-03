@@ -43,6 +43,10 @@
         margin-bottom: 1rem;
         @include functionning-button;
         &:hover{
+            .functionning__icon{
+                color: darken($color: $color-primary, $amount: 15);
+            }
+            color: darken($color: $color-primary, $amount: 15);
             background-color: lighten($color: $color-primary, $amount: 35);
         }
         @media (min-width: variables.$breakpoint){
@@ -57,9 +61,6 @@
         margin-right: 2rem;
         margin-left: 1rem;
         color: #7e7e7e;
-        &:hover{
-            color: darken($color: $color-primary, $amount: 15);
-        }
         @media (min-width: variables.$breakpoint){
             margin: 0;
         }

@@ -13,19 +13,23 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin: 0rem 1rem 3rem 1rem;
+    margin: 0rem 1rem 1rem 1rem;
     background-color: $reservation-background;
     box-shadow: 2px 2px 11px 0px #0000004f;
     border-radius: 1rem;
+    @media (min-width: variables.$breakpoint){
+        margin-left: 8%;
+        margin-right: 8%;
+    }
     &:hover{
-        .carte__checkIcon{
+        .carte__checkIcon , .carte__prix{
                 animation: check 1000ms;
                 animation-fill-mode: forwards;
-                transition-timing-function: cubic-bezier(0.120, 0.615, 0.690, 0.885);
                 transition: all 500ms cubic-bezier(0.120, 0.615, 0.690, 0.885);
-                padding: 0.50rem;
-                margin-left: 5rem;
-                transform: scaleX(1);
+            }
+            i{
+                animation: checkrotate 800ms;
+                color: white;
             }
         }
     }
@@ -34,6 +38,9 @@
         flex-direction: column;
         width:100%;
         padding: 0.75rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
         h3,p{
         display: inline-block;
         max-width: calc(80%);
@@ -44,13 +51,20 @@
         .carte__titre{
             h3{
                 margin: 0rem 0rem 0.5rem 0rem;
+                font-weight: 550;
             }
         }
         .carte__description{
             display: flex;
             flex-direction: row;
-            justify-content:space-between;
-            width: 100%;
+            max-width: calc(100%);
+            justify-content: space-between;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            .carte__prix{
+                font-weight: 550;
+            }
         }
     }
     .carte__checkIcon{

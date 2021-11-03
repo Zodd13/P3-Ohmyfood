@@ -1,8 +1,18 @@
 @keyframes check{
     from{
         transform: translateX(-10%);
+        margin-left: 3rem;
     }
     to{
-        transform: translateX(-100%);
+        transform: translateX(-106.5%);
+        margin-left: 3rem;
+    }
+}
+@keyframes checkrotate{
+    from{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(0deg);
     }
 }
