@@ -16,12 +16,13 @@
     margin: 0rem 1rem 1rem 1rem;
     background-color: $reservation-background;
     box-shadow: 2px 2px 11px 0px #0000004f;
+    cursor: pointer;
     border-radius: 1rem;
     @media (min-width: variables.$breakpoint){
         margin-left: 8%;
         margin-right: 8%;
     }
-    &:hover{
+    &:active{
         .carte__checkIcon , .carte__prix{
                 animation: check 1000ms;
                 animation-fill-mode: forwards;
@@ -75,4 +76,12 @@
         justify-content: center;
         align-items: center;
     }
-
+.carte__bouton1{
+   animation: menudelay 1s;
+}
+.carte__bouton2{
+    animation: menudelay 1.5s;
+}
+.carte__bouton3{
+    animation: menudelay 2s;
+}
