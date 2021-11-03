@@ -382,6 +382,51 @@ body {
   }
 }
 
+.background__image2 {
+  background-image: url("../sass/images/image--1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  position: relative;
+}
+@media (min-width: 767px) {
+  .background__image2 {
+    background-position: center;
+    max-width: 100%;
+    height: 500px;
+  }
+}
+
+.background__image3 {
+  background-image: url("../sass/images/image--2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  position: relative;
+}
+@media (min-width: 767px) {
+  .background__image3 {
+    background-position: center;
+    max-width: 100%;
+    height: 500px;
+  }
+}
+
+.background__image4 {
+  background-image: url("../sass/images/image--4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 15rem;
+  position: relative;
+}
+@media (min-width: 767px) {
+  .background__image4 {
+    background-position: center;
+    max-width: 100%;
+    height: 500px;
+  }
+}
+
 .menu__title {
   position: absolute;
   width: 100%;
@@ -578,15 +623,27 @@ body {
 }
 
 .carte__bouton4 {
-  animation: menudelay 1s;
+  animation: menudelay 3s;
 }
 
 .carte__bouton5 {
-  animation: menudelay 1.5s;
+  animation: menudelay 3.5s;
 }
 
 .carte__bouton6 {
-  animation: menudelay 2s;
+  animation: menudelay 4s;
+}
+
+.carte__bouton7 {
+  animation: menudelay 4.5s;
+}
+
+.carte__bouton8 {
+  animation: menudelay 5s;
+}
+
+.carte__bouton9 {
+  animation: menudelay 5.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

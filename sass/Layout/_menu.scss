@@ -1,5 +1,5 @@
 @use "../Utils/variables";
-
+// ** BACKGROUND IMAGE DES DIFFERENTS MENUS DE LA CARTE **//
 .background__image{
     background-image: url("../sass/images/image--3.jpg");
     background-size: cover;
@@ -12,6 +12,44 @@
         height: 500px;
     }
 }
+.background__image2{
+    background-image: url("../sass/images/image--1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    position: relative;
+    @media (min-width: variables.$breakpoint){
+        background-position: center;
+        max-width: 100%;
+        height: 500px;
+    }
+}
+.background__image3{
+    background-image: url("../sass/images/image--2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    position: relative;
+    @media (min-width: variables.$breakpoint){
+        background-position: center;
+        max-width: 100%;
+        height: 500px;
+    }
+}
+.background__image4{
+    background-image: url("../sass/images/image--4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    position: relative;
+    @media (min-width: variables.$breakpoint){
+        background-position: center;
+        max-width: 100%;
+        height: 500px;
+    }
+}
+
+// ** STYLE DES MENUS DE LA CARTE ** //
 .menu__title{
     position: absolute;
     width: 100%;
