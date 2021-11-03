@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   font-family: "roboto", sans-serif;
+  position: relative;
 }
 
 a {
@@ -56,6 +57,18 @@ ul, li {
     opacity: 1;
   }
 }
+@keyframes loading {
+  from {
+    opacity: 1;
+    transition: 2s ease-in-out;
+    z-index: 10;
+  }
+  to {
+    opacity: 0;
+    transition-delay: 2s ease-in-out;
+    z-index: -1;
+  }
+}
 /* Variables de couleurs */
 .btn__explore {
   background: linear-gradient(163deg, #ee73da 0%, #a05bdc 100%);
@@ -90,6 +103,11 @@ ul, li {
   margin-top: 1rem;
   margin-bottom: 3rem;
   box-shadow: 3px 3px 8px 0px #0000004f;
+}
+.btn__menu .btn__menuu:hover {
+  box-shadow: 3px 3px 8px 0px #0000008e;
+  background: linear-gradient(163deg, #ff83dd 0%, #ff83dd 33%, #985ede 100%);
+  transition: 500ms;
 }
 
 body {
@@ -326,11 +344,26 @@ body {
   opacity: 1;
 }
 
+/* Variables de couleurs */
+/* Variables de couleurs */
 .footer__index {
   display: flex;
   flex-direction: column;
   background: #353535;
   align-items: flex-start;
+}
+@media (min-width: 767px) {
+  .footer__index {
+    align-items: center;
+  }
+  .footer__index .footer__ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  .footer__index .footer__title {
+    font-size: 2rem;
+  }
 }
 .footer__index a h5 {
   font-family: "Shrikhand";
@@ -534,6 +567,35 @@ body {
     opacity: 1;
   }
 }
+@keyframes loading {
+  from {
+    opacity: 1;
+    transition: 2s ease-in-out;
+    z-index: 10;
+  }
+  to {
+    opacity: 0;
+    transition-delay: 2s ease-in-out;
+    z-index: -1;
+  }
+}
+@media (min-width: 800px) {
+  .principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    margin: 0%;
+    gap: 0.5rem;
+  }
+}
+@media (min-width: 800px) and (min-width: 800px) {
+  .principal .principal1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+}
+
 .section__menu {
   width: 100%;
 }
@@ -644,6 +706,21 @@ body {
 
 .carte__bouton9 {
   animation: menudelay 5.5s;
+}
+
+.loading__page {
+  color: #FF79DA;
+  position: absolute;
+  top: -25rem;
+  z-index: 11;
+  background-color: rgba(255, 255, 255, 0.384);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  animation: loading 3s ease-in-out;
+  animation-fill-mode: both;
 }
 
 /*# sourceMappingURL=style.css.map */

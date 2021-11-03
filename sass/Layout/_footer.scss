@@ -1,8 +1,22 @@
+@use "../Utils/variables";
+@use "../Utils/mixins";
+
 .footer__index{
     display: flex;
     flex-direction: column;
     background: $background-footer;
     align-items: flex-start;
+    @media (min-width: variables.$breakpoint){
+        align-items: center;
+        .footer__ul {
+            display: flex;
+            flex-direction: row;
+            width: auto;
+        }
+        .footer__title{
+            font-size: 2rem;
+        }
+    }
     a{
         h5{
             font-family: 'Shrikhand';

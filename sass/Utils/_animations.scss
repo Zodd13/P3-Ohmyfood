@@ -29,3 +29,16 @@
         opacity: 1;
     }
 }
+
+@keyframes loading{
+    from{
+        opacity: 1;
+        transition: 2s ease-in-out;
+        z-index: 10;
+    }
+    to{
+        opacity: 0;
+        transition-delay: 2s ease-in-out;
+        z-index: -1;
+    }
+}

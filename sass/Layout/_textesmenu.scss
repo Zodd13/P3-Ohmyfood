@@ -1,6 +1,22 @@
 @use "../Utils/variables";
 @use "../Utils/mixins";
 @use "../Utils/animations";
+.principal{
+    @media (min-width: 800px){
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        max-width: 100%;
+        margin: 0%;
+        gap: 0.5rem;
+        .principal1{
+            @media (min-width: 800px){
+                display: flex;
+                flex-direction: column;
+                width: auto;
+            }
+        }
+    }
+}
 
 .section__menu{
     width: 100%;
