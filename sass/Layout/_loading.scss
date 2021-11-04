@@ -2,14 +2,17 @@
 .loading__page{
     color: $color-secondary;
     position: absolute;
-    top: -25rem;
-    z-index: 11;
-    background-color: rgba(255, 255, 255, 0.384);
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.801);
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
-    align-items: center;
-    animation: loading 3s ease-in-out;
+    align-items: flex-start;
+    animation: loading 5s ease-in-out;
     animation-fill-mode: both;
+    i{
+        display: flex;
+        margin-top: 20%;
+    }
 }
