@@ -2286,7 +2286,7 @@ readers do not read off random characters that represent icons */
 .fa-image:before {
   content: "\f03e"; }
 
-.fa-images:before {
+.fa-../images:before {
   content: "\f302"; }
 
 .fa-imdb:before {

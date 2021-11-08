@@ -1167,7 +1167,7 @@ household:
     - toilet-paper-slash
     - tv
   label: Household
-images:
+../images:
   icons:
     - adjust
     - bolt
@@ -1186,13 +1186,13 @@ images:
     - id-badge
     - id-card
     - image
-    - images
+    - ../images
     - photo-video
     - portrait
     - sliders-h
     - tint
     - unsplash
-  label: Images
+  label: ../images
 interfaces:
   icons:
     - award
@@ -1424,7 +1424,7 @@ maps:
     - home
     - hospital
     - image
-    - images
+    - ../images
     - industry
     - info
     - info-circle
@@ -1783,7 +1783,7 @@ objects:
     - hourglass
     - igloo
     - image
-    - images
+    - ../images
     - industry
     - key
     - keyboard
@@ -2161,7 +2161,7 @@ social:
     - heart
     - icons
     - image
-    - images
+    - ../images
     - map-marker
     - map-marker-alt
     - photo-video

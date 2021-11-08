@@ -700,7 +700,7 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-ideal:before { content: fa-content($fa-var-ideal); }
 .#{$fa-css-prefix}-igloo:before { content: fa-content($fa-var-igloo); }
 .#{$fa-css-prefix}-image:before { content: fa-content($fa-var-image); }
-.#{$fa-css-prefix}-images:before { content: fa-content($fa-var-images); }
+.#{$fa-css-prefix}-../images:before { content: fa-content($fa-var-../images); }
 .#{$fa-css-prefix}-imdb:before { content: fa-content($fa-var-imdb); }
 .#{$fa-css-prefix}-inbox:before { content: fa-content($fa-var-inbox); }
 .#{$fa-css-prefix}-indent:before { content: fa-content($fa-var-indent); }

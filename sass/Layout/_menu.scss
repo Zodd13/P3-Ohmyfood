@@ -1,7 +1,7 @@
 @use "../Utils/variables";
 // ** BACKGROUND IMAGE DES DIFFERENTS MENUS DE LA CARTE **//
 .background__image{
-    background-image: url("../sass/images/image--3.jpg");
+    background-image: url("/images/image--3.jpg");
     background-size: cover;
     background-position: center;
     height: 15rem;
@@ -13,7 +13,7 @@
     }
 }
 .background__image2{
-    background-image: url("../sass/images/image--1.jpg");
+    background-image: url("/images/image--1.jpg");
     background-size: cover;
     background-position: center;
     height: 15rem;
@@ -25,7 +25,7 @@
     }
 }
 .background__image3{
-    background-image: url("../sass/images/image--2.jpg");
+    background-image: url("/images/image--2.jpg");
     background-size: cover;
     background-position: center;
     height: 15rem;
@@ -37,7 +37,7 @@
     }
 }
 .background__image4{
-    background-image: url("../sass/images/image--4.jpg");
+    background-image: url("/images/image--4.jpg");
     background-size: cover;
     background-position: center;
     height: 15rem;

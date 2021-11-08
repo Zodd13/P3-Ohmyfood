@@ -28657,7 +28657,7 @@
       "regular"
     ]
   },
-  "images": {
+  "../images": {
     "changes": [
       "1",
       "5.0.0",
@@ -28677,7 +28677,7 @@
       "regular"
     ],
     "unicode": "f302",
-    "label": "Images",
+    "label": "../images",
     "voted": false,
     "svg": {
       "solid": {
@@ -57933,7 +57933,7 @@
       "terms": [
         "health",
         "medical",
-        "radiological images",
+        "radiological ../images",
         "radiology",
         "skeleton"
       ]

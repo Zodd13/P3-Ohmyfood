@@ -10677,12 +10677,12 @@ image:
     - regular
   unicode: f03e
   voted: false
-images:
+../images:
   changes:
     - '1'
     - 5.0.0
     - 5.10.1
-  label: Images
+  label: ../images
   search:
     terms:
       - album
@@ -21586,7 +21586,7 @@ x-ray:
     terms:
       - health
       - medical
-      - radiological images
+      - radiological ../images
       - radiology
       - skeleton
   styles:
