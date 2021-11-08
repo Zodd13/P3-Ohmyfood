@@ -242,7 +242,7 @@ body {
   background-color: #9356DC;
 }
 .functionning__list:hover {
-  color: #6c27be;
+  color: black;
   background-color: #f2eafb;
 }
 .functionning__list:hover .functionning__icon {
