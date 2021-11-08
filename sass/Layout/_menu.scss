@@ -102,21 +102,37 @@
         margin: 2rem 0 2rem 1rem;
         padding: 0%;
         font-size: 1rem;
+        position: relative;
         
         @media (min-width: variables.$breakpoint){
             font-size: 1.2rem;
             margin-left: 8%;
         }
-        .menu__bar{
-            position: relative;
-        }
-        .menu__bar::before{
+        #menu__bar--1::before{
             content: "";
             position: absolute;
             bottom: -0.5rem;
             height: 0.2rem;
             width: 2.5rem;
-            left: 0;
+            left: 0rem;
+            background-color: $color-tertiary;
+        }
+        #menu__bar--2::before{
+            content: "";
+            position: absolute;
+            bottom: -0.5rem;
+            height: 0.2rem;
+            width: 2.5rem;
+            left: 0rem;
+            background-color: $color-tertiary;
+        }
+        #menu__bar--3::before{
+            content: "";
+            position: absolute;
+            bottom: -0.5rem;
+            height: 0.2rem;
+            width: 2.5rem;
+            left: 0rem;
             background-color: $color-tertiary;
         }
     }

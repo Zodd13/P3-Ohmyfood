@@ -408,19 +408,22 @@ body {
 
 .header__menu {
   display: flex;
-  margin: 0rem;
-  padding: 1rem;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0rem 1rem 0rem;
+  padding: 0rem 1rem 0rem 1rem;
 }
 .header__menu a {
   display: flex;
+  margin-right: auto;
   align-items: center;
   color: #3c3c3c;
 }
-.header__menu .header__logomenu {
+.header__menu a .header__logomenu {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: center;
 }
 
 /* Variables de couleurs */
@@ -539,6 +542,7 @@ body {
   margin: 2rem 0 2rem 1rem;
   padding: 0%;
   font-size: 1rem;
+  position: relative;
 }
 @media (min-width: 767px) {
   .menu__choice h2 {
@@ -546,16 +550,31 @@ body {
     margin-left: 8%;
   }
 }
-.menu__choice h2 .menu__bar {
-  position: relative;
-}
-.menu__choice h2 .menu__bar::before {
+.menu__choice h2 #menu__bar--1::before {
   content: "";
   position: absolute;
   bottom: -0.5rem;
   height: 0.2rem;
   width: 2.5rem;
-  left: 0;
+  left: 0rem;
+  background-color: #99E2D0;
+}
+.menu__choice h2 #menu__bar--2::before {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  height: 0.2rem;
+  width: 2.5rem;
+  left: 0rem;
+  background-color: #99E2D0;
+}
+.menu__choice h2 #menu__bar--3::before {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  height: 0.2rem;
+  width: 2.5rem;
+  left: 0rem;
   background-color: #99E2D0;
 }
 
